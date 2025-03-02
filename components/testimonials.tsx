@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   Carousel,
   CarouselApi,
@@ -11,23 +11,6 @@ import Image from "next/image";
 
 export const Testimonials = () => {
   const [api, setApi] = useState<CarouselApi | null>(null);
-  const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    if (!api) return;
-
-    const interval = setInterval(() => {
-      if (api.selectedScrollSnap() + 1 === api.scrollSnapList().length) {
-        api.scrollTo(0);
-        setCurrent(0);
-      } else {
-        api.scrollNext();
-        setCurrent(api.selectedScrollSnap() + 1);
-      }
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, [api]);
 
   const testimonials = [
     {
