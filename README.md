@@ -1,3 +1,23 @@
+# Massdriver Landing Page
+
+Here is a NextJS Landing Page made to replicate/improve [Massdriver](https://www.massdriver.cloud/). 
+
+## Live Demo
+You can view the live website at [Massdriver Landing Page](https://merciful-massdriver.netlify.app/).
+
+## Overview
+This website is built with latest versions of NextJS and Tailwindcss providing an optimized, fast, and responsive UX.
+
+## Tools & Technologies Used
+- **Next.js 15.2.0**: A powerful React framework for building static and dynamic websites. It's used for routing, static page generation, and optimization.
+- **Tailwind CSS**: A utility-first CSS framework used for fast UI design.
+- **React**: A JavaScript library for building user interfaces.
+- **Framer Motion**: A library for animations in React, providing smooth transitions.
+- **Lucide React**: For clean, customizable icons.
+- **TypeScript**: A superset of JavaScript that adds static types, providing improved development experience and code safety.
+- **ESLint**: For linting JavaScript code to ensure consistent style and avoid errors.
+- **Radix UI**: A set of low-level UI primitives to build accessible, customizable design systems.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
