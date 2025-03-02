@@ -1,9 +1,9 @@
 # Massdriver Landing Page
 
-Here is a NextJS Landing Page made to replicate/improve [Massdriver](https://www.massdriver.cloud/). 
+Here is a NextJS Landing Page made to replicate/improve massdriver.cloud. 
 
 ## Live Demo
-You can view the live website at [Massdriver Landing Page](https://merciful-massdriver.netlify.app/).
+You can view my live website at [Merciful's Massdriver Landing Page](https://merciful-massdriver.netlify.app/).
 
 ## Overview
 This website is built with latest versions of NextJS and Tailwindcss providing an optimized, fast, and responsive UX.
