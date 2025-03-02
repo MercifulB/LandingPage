@@ -1,14 +1,22 @@
 'use client';
 
-import { useState } from "react";
+import { JSX, useState } from "react";
 import Image from "next/image";
+
+// Define the type for the content object
+type TabContent = {
+  title: string;
+  description: JSX.Element;
+  imageSrc: string;
+  imageAlt: string;
+};
 
 export const Works = () => {
   // State to track the active tab
-  const [activeTab, setActiveTab] = useState("Code");
+  const [activeTab, setActiveTab] = useState<"Code" | "Publish" | "Diagram">("Code");
 
   // Content for each tab
-  const content = {
+  const content: Record<string, TabContent> = {
     Code: {
       title: "Ops Teams Write IaC",
       description: (
@@ -18,7 +26,7 @@ export const Works = () => {
           use-case-specific modules with your policy tooling built in.
           <br />
           <strong className="text-white">
-            Your IaC is no longer just config; it's a functional software asset.
+            Your IaC is no longer just config; it&apos;s a functional software asset.
           </strong> Policy and cost tools are embedded, cutting down maintenance for Ops teams.
         </>
       ),
@@ -44,10 +52,10 @@ export const Works = () => {
       description: (
         <>
           Developers diagram what they want and your IaC modules are used to provision.
-          Developers don't have to copy Helm Charts or Terraform Modules. They don't have brittle IaC pipelines. Instead, Massdriver uses your modules to provision and builds ephemeral CI/CD pipelines behind the scenes based on the tooling <i>in</i> your modules.
+          Developers don&apos;t have to copy Helm Charts or Terraform Modules. They don&apos;t have brittle IaC pipelines. Instead, Massdriver uses your modules to provision and builds ephemeral CI/CD pipelines behind the scenes based on the tooling <i>in</i> your modules.
           <br /><br />
           <strong className="text-white">
-            Say goodbye to 100's of brittle IaC pipelines.
+            Say goodbye to 100&apos;s of brittle IaC pipelines.
           </strong>
         </>
       ),
