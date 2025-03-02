@@ -3,6 +3,7 @@
 import { MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+
 export const Vid_page2 = () => {
   
   return (
