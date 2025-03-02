@@ -37,7 +37,7 @@ export const Works = () => {
       title: "Ops Teams Publish Modules",
       description: (
         <>
-          Bundled modules are published in the Massdriver Service Catalog, where developers can easily discover supported cloud services and applications with your organization's compliance, security, and guardrails in place.
+          Bundled modules are published in the Massdriver Service Catalog, where developers can easily discover supported cloud services and applications with your organization&apos;s compliance, security, and guardrails in place.
           <br /><br />
           <strong className="text-white">
             A central repository for provisioning, policy, and cost controls of your cloud resources.
