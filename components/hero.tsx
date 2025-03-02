@@ -29,9 +29,9 @@ export const Hero = () => {
 
   return (
 <section className="relative w-full min-h-screen flex flex-col items-center justify-center bg-gradient px-6 py-16">
-    {/* Hexagon Shape in the Background */}
+
     <Image
-        src="/hexagon.svg" // Ensure it's in the public folder
+        src="/hexagon.svg"
         alt="Hexagon Shape"
         width={800}
         height={800}
@@ -76,7 +76,7 @@ export const Hero = () => {
 
             <p className="text-xl md:text-2xl leading-relaxed tracking-tight text-[#666666] max-w-4xl text-center">
             At Massdriver, we believe in prevention, not permission. <br></br><br></br>
-            Our platform lets "ops" teams encode their expertise and your organization’s 
+            Our platform lets &quot;ops&quot; teams encode their expertise and your organization’s 
             non-negotiables into preapproved self-service infrastructure powered by the 
             IaC tools you already know.
             <br></br>
