@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 
 export const Feat1 = () => (
@@ -22,7 +22,7 @@ export const Feat1 = () => (
                 Cloud Service Catalog
               </h2>
               <p className="text-m text-white lg:max-w-120 leading-relaxed tracking-tight text-muted-foreground text-left">
-                Your DevOps teams have a lot on their plate, don't lose another great teammate to burnout.
+                Your DevOps teams have a lot on their plate, don&apos;t lose another great teammate to burnout.
                 <br /><br />
                 Enable developers to self-serve cloud infrastructure from approved IaC templates in a central catalog.
                 <br /><br />
@@ -52,7 +52,7 @@ export const Feat1 = () => (
             Cost & Health Insights
             </h2>
             <p className="text-m text-white max-w-xl lg:max-w-120 leading-relaxed tracking-tight text-muted-foreground text-left">
-            Get a clear view of your cloud's health and costs right where your developers manage their infrastructure.
+            Get a clear view of your cloud&apos;s health and costs right where your developers manage their infrastructure.
             <br /><br />
             With real-time insights, you can make proactive adjustments, ensuring systems are efficient and cost-effective.
             <br /><br />
