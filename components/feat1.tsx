@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { MoveRight } from "lucide-react";
 
 
 export const Feat1 = () => (
